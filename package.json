@@ -1,0 +1,37 @@
+{
+  "name": "storybook-slot-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokone91/storybook-slot-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mokone91/storybook-slot-example/issues"
+  },
+  "homepage": "https://github.com/mokone91/storybook-slot-example#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.15",
+    "@storybook/addon-essentials": "^7.4.0",
+    "@storybook/addon-interactions": "^7.4.0",
+    "@storybook/addon-links": "^7.4.0",
+    "@storybook/blocks": "^7.4.0",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/vue3": "^7.4.0",
+    "@storybook/vue3-webpack5": "^7.4.0",
+    "@vue/compiler-sfc": "^3.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.4.0",
+    "vue-loader": "^17.2.2"
+  }
+}
