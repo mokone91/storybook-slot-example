@@ -16,6 +16,11 @@ export default {
       },
       options: ['small', 'medium', 'large'],
     },
+    default:{
+      control:{
+        type:'text'
+      }
+    }
   },
 };
 
@@ -31,15 +36,10 @@ export const Primary = {
       };
     },
     template: `
-      <MyButton>${args.default}</MyButton>
+      <MyButton v-bind='args'>{{ args.default }}</MyButton>
     `,
   }),
   args: {
-    default: 'default slot content',
-  },
-  parameters: {
-    controls: {
-      include: 'default',
-    },
-  },
+    default:'default slot content',
+  }
 };
